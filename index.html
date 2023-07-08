@@ -2,22 +2,26 @@
 <html>
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Add React in One Minute</title>
+  <meta charset="UTF-8" /> <!-- Define o conjunto de caracteres para o documento -->
+  <title>Add React in One Minute</title> <!-- Define o título do documento -->
 </head>
 
 <body>
 
+  <!-- Div onde o componente Header será renderizado -->
+  <div id="header_container"></div>
 
-  <!-- We will put our React component inside this div. -->
+  <!-- Div onde o componente WebAcademy será renderizado -->
   <div id="web_academy_container"></div>
 
-  <!-- Load React. -->
-  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <!-- Carrega a biblioteca React -->
+  <!-- Nota: ao fazer o deploy, substitua "development.js" por "production.min.js" -->
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+
+  <!-- Carrega a biblioteca ReactDOM -->
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
-  <!-- Load our React component. -->
+  <!-- Carrega os componentes React do arquivo web_academy.js -->
   <script src="web_academy.js"></script>
 
 </body>
